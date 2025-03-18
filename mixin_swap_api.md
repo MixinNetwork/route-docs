@@ -1,4 +1,4 @@
-# Mixin Swap APIs
+# Mixin Route Swap APIs
 
 Endpoint: https://api.route.mixin.one/
 
