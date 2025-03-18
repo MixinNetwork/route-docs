@@ -97,7 +97,7 @@ type SwapRespView struct {
 如果是错误 10614，那么可能会包含一个`extra`字段提示用户安全的输入范围
 ```go
 type QuoteRange struct {
-	AssetId string        `json:"asset_id"`
+	AssetId string        `json:"assetId"`
 	Min     string        `json:"min"`
 	Max     string        `json:"max"`
 	Source  se.SwapSource `json:"source"`

@@ -97,7 +97,7 @@ type SwapRespView struct {
 For error code 10614, there may be an `extra` field to suggest safe input ranges for users
 ```go
 type QuoteRange struct {
-	AssetId string        `json:"asset_id"`
+	AssetId string        `json:"assetId"`
 	Min     string        `json:"min"`
 	Max     string        `json:"max"`
 	Source  se.SwapSource `json:"source"`
